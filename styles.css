@@ -45,11 +45,11 @@ a{
 
 .img{
   display: flex;
-  flex-basis: 100%;
+  flex-basis: 50%;
   background-color: gray;
   min-height: 200px;
-  flex-grow: 1;
-  
+  justify-content: center;
+  align-items: center;
 }
 
 .awesome_logo{
@@ -57,9 +57,112 @@ a{
   font-size: 40px;
 }
 
-.t{
+.next_header_top{
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
   margin-right: auto;
+}
+
+button {
+  background-color: rgb(117, 117, 214);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 1px 10px;
+  border: 1px solid white;
+}
+
+
+.cardss{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 50px 50px 50px 70px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cont_cards{
+  padding: 30px 250px 0px;
+  display: flex;
+  justify-content:space-around ;
+  gap: 30px;
+  flex-shrink: 0;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+  font-weight: lighter;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.rect{
+  display: flex;
+  border-radius: 15px;
+  border: solid 2px #3882F6;
+  flex-basis: 100%;
+  min-height: 150px;
+  margin-bottom: 7px;
+}
+
+.ins{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  padding:  50px 200px;
+}
+
+.rem{
+  display: flex;
+  color: #1F2937;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  margin-left: auto;
+  padding-right: 10px;
+}
+
+.sign{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 150px;
+  padding: 24px 50px;
+  border-radius: 10px;
+  background-color: #3882F6;
+}
+
+.t_sign{
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text_s{
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  padding: 30px;
 }
